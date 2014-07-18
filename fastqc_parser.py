@@ -21,6 +21,7 @@ RESULTS = {
 EXPECTED_MODULES = [
     "Basic Statistics",
     "Per base sequence quality",
+    "Per tile sequence quality",
     "Per sequence quality scores",
     "Per base sequence content",
     "Per base GC content",
@@ -29,6 +30,7 @@ EXPECTED_MODULES = [
     "Sequence Length Distribution",
     "Sequence Duplication Levels",
     "Overrepresented sequences",
+    "Adapter Content",
     "Kmer Content",
 ]
 
