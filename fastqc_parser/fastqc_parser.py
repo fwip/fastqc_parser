@@ -21,17 +21,20 @@ RESULTS = {
 EXPECTED_MODULES = [
     "Basic Statistics",
     "Per base sequence quality",
-    "Per tile sequence quality",
     "Per sequence quality scores",
     "Per base sequence content",
-    "Per base GC content",
     "Per sequence GC content",
     "Per base N content",
     "Sequence Length Distribution",
     "Sequence Duplication Levels",
     "Overrepresented sequences",
-    "Adapter Content",
     "Kmer Content",
+]
+
+OPTIONAL_MODULES = [
+    "Per tile sequence quality",
+    "Adapter Content",
+    "Per base GC content",
 ]
 
 class FastQCParser(object):

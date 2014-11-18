@@ -103,7 +103,6 @@ class TestVersion11Parsing(unittest.TestCase):
         'Per base sequence content': FAIL_RESULT,
         'Per sequence GC content': WARN_RESULT,
         'Per base N content': PASS_RESULT,
-        #'Per base GC content': WARN_RESULT, #Not in v11
         'Sequence Length Distribution': PASS_RESULT,
         'Basic Statistics': PASS_RESULT,
         'Sequence Duplication Levels': FAIL_RESULT,
